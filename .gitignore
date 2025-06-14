@@ -1,2 +1,9 @@
+# Pastas de notebooks ignoradas
 notebooks/
 
+# Ambientes virtuais
+venv/
+.venv/
+
+# Credenciais
+my_secrets.py
