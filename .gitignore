@@ -10,7 +10,7 @@ my_secrets.py
 
 # Arquivos sensíveis
 relatorio_consolidado_clientes.csv
-meta_ads_pipeline.py
+
 # Arquivos de log
 logs/
 # Arquivos temporários
