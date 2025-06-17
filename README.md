@@ -97,4 +97,4 @@ A técnica de clusterização K-Means foi aplicada aos dados (após escalonament
 
 ## Conclusão
 
-Este projeto demonstra como a análise de dados e o uso de modelos de Machine Learning (regressão e clusterização) podem fornecer insights valiosos para a otimização de campanhas de marketing digital. A identificação dos principais drivers de desempenho e a segmentação de campanhas por eficiência permitem decisões mais estratégicas e a melhoria contínua do ROI (Retorno sobre Investimento) em Meta Ads.
+Este projeto demonstra como a análise de dados e o uso de modelos de Machine Learning (regressão e clusterização) podem fornecer insights para a otimização de campanhas de marketing digital. A identificação dos principais drivers de desempenho e a segmentação de campanhas por eficiência permitem decisões mais estratégicas e a melhoria contínua do ROI (Retorno sobre Investimento) em Meta Ads.
