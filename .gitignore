@@ -4,6 +4,7 @@ __pycache__/
 # Ambientes virtuais
 venv/
 .venv/
+teste/
 
 # Credenciais
 my_secrets.py
