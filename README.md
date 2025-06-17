@@ -88,7 +88,7 @@ A técnica de clusterização K-Means foi aplicada aos dados (após escalonament
 **Interpretação dos Clusters:**
 
 * **Cluster 1: O Grupo de Alta Eficiência**
-    * Caracterizado por **alta CTR (4.66%)** e **baixo CPC (R$ 0.16)**. Representa os conjuntos de anúncios com melhor desempenho, indicando estratégias eficazes.
+    * Caracterizado por **alta taxa de clique - CTR (4.66%)** e **baixo custo por clique - CPC (R$ 0.16)**. Representa os conjuntos de anúncios com melhor desempenho, indicando estratégias eficazes.
     * **Insights:** É fundamental analisar em profundidade esses adsets para identificar fatores de sucesso (CTAs, criativos, promoções, textos) e replicá-los.
 
 * **Cluster 0: O Grupo de Baixa Performance**
