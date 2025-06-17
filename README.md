@@ -51,7 +51,7 @@ Para prever o número de cliques (`inline_link_clicks`), foram treinados modelos
 * **Regressão Linear:** $R^2$ de 0.80.
 * **Random Forest:** $R^2$ de 0.83.
 
-Um $R^2$ de 0.80, significa que 85% da variação no número de cliques pode ser explicada pelo nosso modelo. Sendo assim, ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
+Um $R^2$ de 0.80, significa que 80% da variação no número de cliques pode ser explicada pelo nosso modelo. Sendo assim, ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
 
 **Visualização: Valores Reais vs. Valores Previstos (Regressão Linear)**
 
