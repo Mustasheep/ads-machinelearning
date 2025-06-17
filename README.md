@@ -54,7 +54,8 @@ Para prever o número de cliques (`inline_link_clicks`), foram treinados modelos
 Ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
 
 **Visualização: Valores Reais vs. Valores Previstos (Regressão Linear)**
-![Valores Reais vs. Valores Previstos](ads-machinelearning/notebooks/plots/modelo-regressao.jpeg)
+
+![modelo](plots/modelo-regressao.jpeg)
 
 #### Importância das Features
 
@@ -66,7 +67,8 @@ A análise da importância das features para o modelo Random Forest revelou que 
 | `impressoes` | 0.14        |
 
 **Visualização: Importância de Cada Feature para o Modelo**
-![Importância de Cada Feature para o Modelo](ads-machinelearning/plots/importancia_features.png)
+
+![importancia](plots/importancia_features.png)
 
 ### Clusterização K-Means
 
@@ -80,7 +82,8 @@ A técnica de clusterização K-Means foi aplicada aos dados (após escalonament
 | **1** | 20.36      | 3305.65    | 110.22          | 0.16     | 4.66    |
 
 **Visualização: Clusters por CPC vs CTR**
-![Clusters por CPC vs CTR](ads-machinelearning/plots/clusters_cpc_ctr.png)
+
+![cluster](plots/clusters_cpc_ctr.png)
 
 **Interpretação dos Clusters:**
 
