@@ -51,7 +51,7 @@ Para prever o número de cliques (`inline_link_clicks`), foram treinados modelos
 * **Regressão Linear:** $R^2$ de 0.80.
 * **Random Forest:** $R^2$ de 0.83.
 
-Ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
+Um $R^2$ de 0.80, significa que 85% da variação no número de cliques pode ser explicada pelo nosso modelo. Sendo assim, ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
 
 **Visualização: Valores Reais vs. Valores Previstos (Regressão Linear)**
 
@@ -59,7 +59,7 @@ Ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear 
 
 #### Importância das Features
 
-A análise da importância das features para o modelo Random Forest revelou que o **`gasto` é a feature mais influente** na previsão do número de cliques.
+A análise da importância das features para o modelo Random Forest revelou que o **`gasto` é a feature mais influente** na previsão do número de cliques. Isso comprova que o investimento direto é, de fato, o motor principal para a geração de resultados. Isso ocorre porque, quanto maior o investimento, mais o algoritmo da Meta consegue atuar dentro desse grupo seleto e qualificado de pessoas, gerando cliques de maior valor que se traduzem em conversões efetivas.
 
 | Feature    | Importância |
 | :--------- | :---------- |
@@ -89,11 +89,11 @@ A técnica de clusterização K-Means foi aplicada aos dados (após escalonament
 
 * **Cluster 1: O Grupo de Alta Eficiência**
     * Caracterizado por **alta taxa de clique - CTR (4.66%)** e **baixo custo por clique - CPC (R$ 0.16)**. Representa os conjuntos de anúncios com melhor desempenho, indicando estratégias eficazes.
-    * **Insights:** É fundamental analisar em profundidade esses adsets para identificar fatores de sucesso (CTAs, criativos, promoções, textos) e replicá-los.
+    * **Insights:** É fundamental analisar em profundidade esses anúncios para identificar fatores de sucesso (CTAs, criativos, promoções, textos) e replicá-los.
 
 * **Cluster 0: O Grupo de Baixa Performance**
-    * Apresenta **baixa CTR (0.74%)** e **CPC elevado (R$ 0.58)**. Este grupo indica adsets com performance insatisfatória.
-    * **Insights:** Requer atenção imediata para monitorar criativos, pausar ou desativar anúncios ineficientes e redistribuir o orçamento para iniciativas mais promissoras.
+    * Apresenta **baixa CTR (0.74%)** e **CPC elevado (R$ 0.58)**. Este grupo indica anúncios com performance insatisfatória.
+    * **Insights:** Requer atenção imediata para monitorar criativos, aplicar otimizações ou pausar anúncios ineficientes e redistribuir o orçamento para iniciativas mais promissoras.
 
 ## Conclusão
 
