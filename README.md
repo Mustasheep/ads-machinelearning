@@ -10,11 +10,9 @@ O projeto foi desenvolvido para extrair dados diretamente da Meta Ads API, proce
 
 A estrutura do projeto é organizada da seguinte forma:
 ```
-.
-├── .venv/                         # Ambiente virtual do projeto
-├── ads-machinelearning/
-│   └── notebooks/
-│      └── experimento.ipynb       # Notebook Jupyter com a análise e modelos
+ads-machinelearning/
+├── notebooks/
+│   └── experimento.ipynb          # Notebook Jupyter com a análise e modelos
 ├── pipeline/
 │   └── meta_ads_pipeline.py       # Script Python para extração e pré-processamento dos dados
 ├── plots/                         # Pasta com imagens para o Readme
