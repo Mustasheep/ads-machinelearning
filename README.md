@@ -54,7 +54,7 @@ Para prever o número de cliques (`inline_link_clicks`), foram treinados modelos
 Ambos os modelos apresentaram bom desempenho, com o modelo de Regressão Linear sendo considerado suficiente devido à sua simplicidade e interpretabilidade, sem grande perda de acurácia em comparação com o Random Forest.
 
 **Visualização: Valores Reais vs. Valores Previstos (Regressão Linear)**
-![Valores Reais vs. Valores Previstos](ads-machinelearning/notebooks/plots/modelo-regressao.jpeg)
+![Valores Reais vs. Valores Previstos](ads-machinelearning/plots/modelo-regressao.jpeg)
 
 #### Importância das Features
 
