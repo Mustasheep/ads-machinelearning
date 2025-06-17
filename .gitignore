@@ -9,10 +9,11 @@ teste/
 # Credenciais
 my_secrets.py
 
-# Arquivos sensíveis
+# Arquivo com os dados
 relatorio_consolidado_clientes.csv
 
 # Arquivos de log
 logs/
+
 # Arquivos temporários
 *.tmp
